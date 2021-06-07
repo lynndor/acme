@@ -1,0 +1,3 @@
+[submodule "mock-api-server"]
+	path = mock-api-server
+	url = https://github.com/cibfrontend/mock-api-server.git
