@@ -158,7 +158,7 @@ function App() {
         aria-describedby="simple-modal-description"
         >
           <div style={modalStyle} className={classes.paper}>
-            
+            <h4>Add amount to withdraw</h4>
             <form 
               noValidate 
               autoComplete="off" 
