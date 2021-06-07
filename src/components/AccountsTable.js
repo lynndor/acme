@@ -106,7 +106,7 @@ export default function AccountsTable({accounts, totalBalance, handleClick}) {
         
               <StyledTableCell>{account.account_number}</StyledTableCell>
               <StyledTableCell>{account.account_type}</StyledTableCell>
-              <StyledTableCell>ZAR {account.balance}</StyledTableCell>
+              <StyledTableCell>{`ZAR ${parseFloat(account.balance)}`}</StyledTableCell>
             
               <StyledTableCell>
                 <Button 
