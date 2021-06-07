@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
-    height: 150,
+    // height: 150,
   },
   form: {
     display: 'flex',
@@ -35,8 +35,6 @@ const useStyles = makeStyles((theme) => ({
   button: {
     padding: '0px 220px'
   }
-
-
 }));
 
 
@@ -158,7 +156,7 @@ function App() {
         aria-describedby="simple-modal-description"
         >
           <div style={modalStyle} className={classes.paper}>
-            <h4>Add amount to withdraw</h4>
+            <p>How much are you withdrawing</p>
             <form 
               noValidate 
               autoComplete="off" 
